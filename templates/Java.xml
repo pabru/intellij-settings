@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="log" value="private final static Logger log = LogManager.getLogger($CLASS$.class);" description="Include Logger boilerplate" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
