@@ -79,16 +79,7 @@
   <component name="NodeRendererSettings">
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="List" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.util.List" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="java.util.List" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="String.join(&quot;, &quot;, this)&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="OTMM Session" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="com.gsk.dcm_data_tool.lib.otmm.OTMM" />
         <Renderer ID="LabelRenderer" role="label">
@@ -98,6 +89,7 @@
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="OTMM Cookie" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="org.apache.http.impl.client.BasicCookieStore" />
         <Renderer ID="LabelRenderer" role="label">
@@ -107,15 +99,7 @@
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="com.gsk.dcm_data_tool.lib.configuration.LastRunDate" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="com.gsk.dcm_data_tool.lib.configuration.LastRunDate" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="this.loadFromFile()&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="Metadata Field" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="com.gsk.dcm_data_tool.lib.otmm.json.MetadataField" />
         <Renderer ID="LabelRenderer" role="label">
